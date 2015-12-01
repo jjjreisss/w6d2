@@ -8,11 +8,10 @@ span, article, footer, time, small {
   margin: 0;
   padding: inherit;
   border: 0;
-  /*font-size: 100%;*/
+  border-color: inherit;
+  border-width: inherit;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300, 400, 700;
-  font-size: 36px, 24px, 16px, 14px, 12px;
-  /*vertical-align: baseline;*/
+  font-size: 16px;
   box-sizing: inherit;
   color: inherit;
   text-decoration: inherit;
