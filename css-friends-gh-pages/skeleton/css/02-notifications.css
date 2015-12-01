@@ -1,1 +1,52 @@
 /* PHASE 2: Notifications */
+
+.badge{
+  position: relative;
+}
+
+.badge{
+  display: inline;
+  font-size: 14px;
+  padding: 1px 6px;
+  background: #000;
+  border-radius: 50%;
+}
+
+li:hover .badge { /* Notifications */
+  background: #f00;
+
+}
+
+li:hover ul{
+  display: block;
+}
+
+li{
+  position: relative;
+}
+
+li ul{ /* dropdown */
+  display: none;
+  position: absolute;
+  background: #fff;
+  margin-top: 11px;
+  margin-left: -20px;
+}
+
+li li{ /* dropdown item */
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  border: solid #ccc;
+  border-width: 1px;
+}
+
+li li:nth-last-child(2){ /* override irregular profile border */
+  margin: -1px 0px;
+}
+
+li li:hover{
+  background: #eee;
+}

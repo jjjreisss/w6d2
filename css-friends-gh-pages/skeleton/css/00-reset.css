@@ -6,13 +6,13 @@ section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
   margin: 0;
-  padding: inherit;
+  padding: 0;
   border: 0;
   border-color: inherit;
   border-width: inherit;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  box-sizing: inherit;
+  font-size: inherit;
+  /*box-sizing: inherit;*/
   color: inherit;
   text-decoration: inherit;
 }
