@@ -1,1 +1,40 @@
 /* PHASE 1: Header */
+body {
+
+}
+
+.header{
+  width: 100%;
+  height: 40px;
+  background: #f00;
+}
+
+.header-nav{
+  color: #fff;
+}
+
+.header-logo{
+  margin-left: 65px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  float: left;
+  border: solid white;
+  border-width: 0 1px;
+}
+
+.header-list{
+  margin-right: 65px;
+  font-weight: 400;
+  font-size: 16px;
+  float: right;
+  border: #eee;
+  border-width: 0 1px 0 0;
+}
+
+li{
+  padding: 10px 10px;
+  float: left;
+  border: solid white;
+  border-width: 0 0 0 1px;
+}

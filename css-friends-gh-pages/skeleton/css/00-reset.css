@@ -5,15 +5,27 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-
+  margin: 0;
+  padding: inherit;
+  border: 0;
+  /*font-size: 100%;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300, 400, 700;
+  font-size: 36px, 24px, 16px, 14px, 12px;
+  /*vertical-align: baseline;*/
+  box-sizing: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 ul {
-
+  list-style: none;
 }
 
 img {
-
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 input[type="password"],
@@ -27,11 +39,14 @@ button {
 
 button,
 input[type="submit"] {
-
+  cursor: pointer;
+  cursor: hand;
 }
 
 /* Clearfix */
 
 .group:after {
-
+  content: "";
+  display: block;
+  clear: both;
 }
