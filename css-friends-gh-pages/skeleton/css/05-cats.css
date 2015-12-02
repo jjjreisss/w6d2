@@ -2,5 +2,32 @@
 .content-header {
   height: 200px;
   background-image: url("../../shared/img/goat.jpg");
-  
+  line-height: 1;
+}
+
+.content-header .heading{
+  margin: auto;
+  margin-left: 240px;
+  margin-top: 140px;
+  position: absolute;
+  text-shadow: #000 0 2px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.content-header .add-friend{
+  margin: auto;
+  position: absolute;
+  float: right;
+  right: 20px;
+  top: 140px;
+  height: 36px;
+  background: #eee;
+  font-size: 14px;
+  font-weight: 700;
+  width: 120px;
+  min-height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
