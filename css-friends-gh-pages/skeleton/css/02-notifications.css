@@ -43,7 +43,7 @@ li li{ /* dropdown item */
   border-width: 1px;
 }
 
-li li:nth-last-child(2){ /* override irregular profile border */
+li li:nth-last-child(2){ /*  middle child syndrome */
   margin: -1px 0px;
 }
 
